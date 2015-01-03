@@ -98,6 +98,7 @@ public class LadyTest1 {
 			}
 		}
 			System.out.println("Specheli " + countprizes + " nagradi !");
+			System.out.println("Changed  some shit");
 			driver.close();
 
 	}
