@@ -21,10 +21,10 @@ public class LadyTest1 {
 //		driver.manage().window().maximize();
 		WebElement usernamef = driver.findElement(By.xpath(".//*[@id='loginForm3']/input[1]"));
 		usernamef.clear();
-		usernamef.sendKeys("Magdalena2305");
+		usernamef.sendKeys("test");
 		WebElement passwordf = driver.findElement(By.xpath(".//*[@id='loginForm3']/input[2]"));
 		passwordf.clear();
-		passwordf.sendKeys("pavel1");
+		passwordf.sendKeys("test");
 		WebElement loginBut = driver.findElement(By.xpath(".//*[@id='loginForm3']/input[3]"));
 		loginBut.click();
 		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
